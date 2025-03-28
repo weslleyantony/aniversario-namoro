@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+
+body {
+    background-image: url("../images/backgrounds/index.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 98.1vh;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    text-align: center;
+    padding: 18em 0em 0em 0em;
+}
+
+button.btnImages{
+    width: 128px;
+    height: 100px;
+    margin: 0em 0.4em;
+    border-radius: 9px;
+    border-color: transparent;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#btnPhoto3{
+    margin-left: .7em;
+}
+
+img {
+    width: 17%;
+    height: 17%;
+    margin: 3em;
+    padding: 0px;
+
+}
+
+h1{
+    text-align: center;
+    margin: 2em;
+}
+
+.btnHome{
+    text-align: center;
+}
+
+#btnHomeScreen{
+    margin-top: 12em;
+    width: 41px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+}

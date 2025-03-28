@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "sims";
+    src: url('../fonts/OPTICivetMedium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "the";
+    src: url('../fonts/FrutigerBlackCnRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@keyframes text-blink {
+    0%, 100% { 
+        color: rgba(255, 0, 0, 1); /* Visível */
+    }
+    50% { 
+        color: rgba(255, 0, 0, 0.1); /* Quase invisível */
+    }
+}
+
+.game-button {
+    cursor: pointer;
+    outline: none;
+    text-transform: uppercase;
+    animation: text-blink 1s infinite;
+    margin: 33.5% 0px 0px 0px;
+    font-family: "sims";
+    font-size: 1.7em;
+    text-shadow: 1.3px 1.3px 1.3px black;
+    text-transform: uppercase;
+    background-color: transparent;
+    border-color: transparent;
+    animation: text-blink 1s infinite;
+    
+}
+
+body {
+    background-image: url("../images/backgrounds/homescreen1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 98.1vh;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    text-align: center;
+
+}
+
+a {
+    padding: 20px 50px;
+    text-decoration: none;
+    color: white;
+}
